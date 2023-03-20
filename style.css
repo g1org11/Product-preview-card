@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fraunces&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f2eae2;
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.conteiner {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  height: 450px;
+
+  width: 600px;
+  background: #ffffff;
+  border-radius: 10px;
+}
+.card-conteiner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left-part {
+  /* padding-right: 32px; */
+}
+.left-part img {
+  height: 450px;
+  width: 300px;
+  border-radius: 10px 0px 0px 10px;
+}
+.right-part {
+  /* width: 236px; */
+  padding-right: 30px;
+}
+.right-part h2 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 5px;
+  color: #6c7289;
+  margin-bottom: 20px;
+}
+.right-part h1 {
+  width: 236px;
+  font-family: "Fraunces", serif;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 32px;
+  color: #1c232b;
+  margin-bottom: 24px;
+}
+.right-part p {
+  width: 236px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 23px;
+  color: #6c7289;
+}
+.prices-div {
+  display: flex;
+  align-items: center;
+  margin-top: 29px;
+}
+.prices-div span.price {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 32px;
+  color: #3d8168;
+  margin-right: 20px;
+}
+.prices-div span del {
+  font-size: 13px;
+  line-height: 23px;
+  /* identical to box height, or 177% */
+
+  text-decoration-line: line-through;
+
+  /* Aurometal Saurus */
+
+  color: #6c7289;
+}
+button {
+  margin-top: 30px;
+  width: 236px;
+  height: 48px;
+  background: #3d8168;
+  border: none;
+  border-radius: 8px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+}
+button img {
+  padding-right: 10px;
+}
