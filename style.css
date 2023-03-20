@@ -29,10 +29,14 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-.left-part {
+/* .left-part {
   /* padding-right: 32px; */
-}
-.left-part img {
+
+.left-part {
+  background-image: url(images/image-product-desktop.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+
   height: 450px;
   width: 300px;
   border-radius: 10px 0px 0px 10px;
@@ -80,12 +84,8 @@ body {
 .prices-div span del {
   font-size: 13px;
   line-height: 23px;
-  /* identical to box height, or 177% */
 
   text-decoration-line: line-through;
-
-  /* Aurometal Saurus */
-
   color: #6c7289;
 }
 button {
@@ -102,4 +102,8 @@ button {
 }
 button img {
   padding-right: 10px;
+}
+button:hover {
+  background: #1a4032;
+  transition: 0.5s;
 }
